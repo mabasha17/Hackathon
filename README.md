@@ -239,14 +239,7 @@ When enabled, the Gemini AI provides:
 
 If Gemini is not configured, the engine falls back to intelligent rule-based insights.
 
-## 🎓 Example Commands
 
-### Hackathon Quick Start
-
-```bash
-# Complete pipeline in one command
-python main.py --download-kaggle --use-gemini --output-format both --save-cleaned
-```
 
 ### Demo with Existing Data
 
