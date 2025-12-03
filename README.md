@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # H-001 Automated Insight Engine
 
 A complete local pipeline that downloads marketing/adtech data from Kaggle, performs comprehensive analytics, generates professional visualizations, produces AI-powered insights, and outputs polished PDF & PowerPoint reports automatically.
@@ -308,3 +309,6 @@ See `requirements.txt` for full list. Key libraries:
 - **python-pptx** - PowerPoint generation
 - **kaggle** - Kaggle API
 - **google-generativeai** - AI insights (optional)
+=======
+
+>>>>>>> 0474efb66b464719bf2c79697c475f8b46ecb450
