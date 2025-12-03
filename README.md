@@ -1,319 +1,310 @@
-# Automated Insight Engine (H-001)
+# H-001 Automated Insight Engine
 
-**Track:** Data Engineering & Analytics  
-**Hackathon Project:** Automated Insight Engine
+A complete local pipeline that downloads marketing/adtech data from Kaggle, performs comprehensive analytics, generates professional visualizations, produces AI-powered insights, and outputs polished PDF & PowerPoint reports automatically.
 
-## Overview
+## 🎯 Features
 
-The Automated Insight Engine is a Python-based pipeline that transforms raw AdTech CSV data into executive-ready PowerPoint presentations with AI-driven insights. The system automatically:
+- **Automated Kaggle Integration**: Download datasets directly from Kaggle using the API
+- **Multi-Format Data Support**: CSV, XLSX, and JSON file formats
+- **Comprehensive Analytics**: CTR, CPC, CPM, ROAS, conversion rates, and more
+- **Professional Visualizations**: Auto-generated charts and plots
+- **AI-Powered Insights**: Google Gemini integration with rule-based fallback
+- **Multi-Format Reports**: PDF and PowerPoint presentations
+- **Hackathon-Ready**: Runs on normal laptops without GPU requirements
 
-1. **Ingests** CSV data from various sources
-2. **Processes** data using pandas to calculate summary statistics
-3. **Generates** AI-powered insights using LLMs (OpenAI/Gemini)
-4. **Visualizes** trends with matplotlib charts
-5. **Outputs** formatted PowerPoint presentations (.pptx)
+## 📊 Dataset
 
-## Features
+This project uses marketing campaign datasets from multiple sources:
 
-- ✅ Automated data processing and statistics calculation
-- ✅ LLM integration (OpenAI GPT-4o/Gemini) for intelligent insights
-- ✅ Unstructured data support (client emails/complaints)
-- ✅ Automatic chart generation (Clicks over Time)
-- ✅ Professional PowerPoint output
-- ✅ CLI-based execution (no web dashboard)
-- ✅ Fallback heuristic summaries when LLM APIs are unavailable
-- ✅ Support for custom CSV datasets via command-line arguments
+### Primary Dataset (Used in Testing)
 
-## Project Structure
+**[Social Media Ad Campaign Dataset](https://www.kaggle.com/datasets/programmer3/social-media-ad-campaign-dataset)** from Kaggle
 
-```
-Hackathon/
-├── main.py                      # Main orchestrator script
-├── requirements.txt             # Python dependencies
-├── README.md                    # This file
-│
-├── data/                        # Data directory
-│   ├── adtech_data.csv         # Input CSV file (auto-generated if missing)
-│   └── email.txt               # Unstructured client feedback
-│
-├── charts/                      # Generated chart images
-│   └── clicks_over_time.png    # Auto-generated visualization
-│
-├── reports/                     # Output directory
-│   └── weekly_performance_report.pptx  # Generated PowerPoint
-│
-├── llm/                         # LLM integration module
-│   ├── __init__.py
-│   └── client.py               # OpenAI/Gemini client with fallback
-│
-├── ppt/                         # PowerPoint generation module
-│   ├── __init__.py
-│   └── pptx_generator.py       # Presentation builder
-│
-└── scripts/                     # Utility scripts
-    └── generate_dummy_data.py  # CSV data generator for testing
-```
+**Dataset Details:**
 
-## Installation
+- **Rows**: 500 campaign records
+- **Columns**: 16 attributes including:
+  - `user_id`, `age`, `gender`, `location`, `interests`
+  - `ad_id`, `ad_category`, `ad_platform`, `ad_type`
+  - `impressions`, `clicks`, `conversion`, `time_spent_on_ad`
+  - `day_of_week`, `device_type`, `engagement_score`
 
-### Prerequisites
+**Platforms Covered**: Facebook, Instagram, Google, Twitter  
+**Ad Categories**: Electronics, Fashion, Food, Sports, Travel  
+**Device Types**: Mobile, Desktop, Tablet  
+**Perfect For**: CTR, conversion rate, engagement analysis, demographic segmentation
 
-- Python 3.8 or higher
-- pip (Python package manager)
+### Alternative: Sample Dataset (Included)
 
-### Setup
+For quick testing without Kaggle download, a sample dataset (`sample_marketing_data.csv`) is auto-generated with:
 
-1. **Clone or navigate to the project directory:**
+- **Rows**: 443 marketing records
+- **Impressions**: 2,295,626 total
+- **Clicks**: 113,305 total
+- **Columns**: Same 16 attributes as Kaggle dataset
+- **Use Case**: Offline testing, demo purposes
 
-   ```bash
-   cd Hackathon
-   ```
+## 🚀 Quick Start
 
-2. **Install dependencies:**
+### 1. Prerequisites
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+- Python 3.9 or higher
+- Kaggle account and API credentials
+- Internet connection for Kaggle downloads
 
-3. **Configure API Keys (Optional):**
-
-   **Option A: Using .env file (Recommended)**
-
-   Create a `.env` file in the project root:
-
-   ```bash
-   # Create .env file
-   # Windows PowerShell
-   New-Item -Path .env -ItemType File
-
-   # Linux/Mac
-   touch .env
-   ```
-
-   Add your API keys to `.env`:
-
-   ```env
-   OPENAI_API_KEY=your-openai-api-key-here
-   GEMINI_API_KEY=your-gemini-api-key-here
-   ```
-
-   **Option B: Using System Environment Variables**
-
-   For **OpenAI**:
-
-   ```bash
-   # Windows PowerShell
-   $env:OPENAI_API_KEY="your-openai-api-key-here"
-
-   # Linux/Mac
-   export OPENAI_API_KEY="your-openai-api-key-here"
-   ```
-
-   For **Google Gemini**:
-
-   ```bash
-   # Windows PowerShell
-   $env:GEMINI_API_KEY="your-gemini-api-key-here"
-
-   # Linux/Mac
-   export GEMINI_API_KEY="your-gemini-api-key-here"
-   ```
-
-   **Note:**
-
-   - The `.env` file method is recommended as it's easier to manage
-   - The `.env` file is automatically ignored by git (see `.gitignore`)
-   - If no API keys are configured, the system will use a heuristic fallback summary generator
-
-## Usage
-
-### Basic Usage
-
-Run the main script to process data and generate a PowerPoint:
+### 2. Installation
 
 ```bash
-python main.py
+# Clone or download this project
+cd automated-insight-engine
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 3. Kaggle Configuration
+
+To download datasets from Kaggle, you need to set up your API credentials:
+
+#### Step 1: Get Your Kaggle API Key
+
+1. Go to [Kaggle](https://www.kaggle.com/)
+2. Click on your profile picture → **Account**
+3. Scroll to **API** section
+4. Click **Create New API Token**
+5. This downloads `kaggle.json` to your computer
+
+#### Step 2: Place kaggle.json
+
+**Windows:**
+
+```
+C:\Users\<YOUR_USERNAME>\.kaggle\kaggle.json
+```
+
+**Linux/Mac:**
+
+```
+~/.kaggle/kaggle.json
+```
+
+**Manual Setup (if auto-detection fails):**
+
+```bash
+# Create .kaggle directory
+mkdir -p ~/.kaggle  # Linux/Mac
+mkdir %USERPROFILE%\.kaggle  # Windows
+
+# Copy kaggle.json to the directory
+cp kaggle.json ~/.kaggle/  # Linux/Mac
+copy kaggle.json %USERPROFILE%\.kaggle\  # Windows
+
+# Set permissions (Linux/Mac only)
+chmod 600 ~/.kaggle/kaggle.json
+```
+
+### 4. Optional: Google Gemini API (for AI Insights)
+
+If you want AI-powered insights:
+
+1. Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Copy `.env.example` to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+3. Edit `.env` and add your API key:
+   ```
+   GEMINI_API_KEY=your_actual_api_key_here
+   USE_GEMINI=true
+   ```
+
+**Note:** If you skip this, the engine will use rule-based insights (still very useful!).
+
+## 📖 Usage
+
+### Basic Usage (Download from Kaggle)
+
+```bash
+cd src
+python main.py --download-kaggle --output-format both
 ```
 
 This will:
 
-1. Load or generate `data/adtech_data.csv` (if missing)
-2. Calculate summary statistics
-3. Read unstructured data from `data/email.txt`
-4. Generate a chart (`charts/clicks_over_time.png`)
-5. Get AI insights (or use fallback)
-6. Create PowerPoint (`reports/weekly_performance_report.pptx`)
+1. Download the Facebook Ad Campaign dataset from Kaggle
+2. Clean and preprocess the data
+3. Calculate all marketing metrics
+4. Generate visualizations
+5. Create AI insights
+6. Generate both PDF and PowerPoint reports
 
-### Using Custom Datasets
+### Use Existing Dataset
 
-Process your own CSV file:
-
-```bash
-python main.py --input path/to/your/dataset.csv
-```
-
-**With custom output filename:**
+If you already have a dataset in `data/input/`:
 
 ```bash
-python main.py --input my_data.csv --output my_custom_report.pptx
+python main.py --output-format both
 ```
 
-**With custom email context:**
+### Generate Specific Report Types
 
 ```bash
-python main.py --input my_data.csv --email my_emails.txt
+# PDF only
+python main.py --output-format pdf
+
+# PowerPoint only
+python main.py --output-format pptx
 ```
 
-**CSV Format Requirements:**
-Your CSV must contain these columns:
-
-- `Date` - Date column (will be parsed automatically)
-- `Clicks` - Number of clicks (integer)
-- `Impressions` - Number of impressions (integer)
-- `Spend` - Amount spent (float)
-- `Platform` - Platform name (e.g., "Google", "Facebook")
-- `Campaign_ID` - Campaign identifier (optional but recommended)
-
-### Custom Output Path
-
-Specify a custom output file:
+### Use Custom Dataset
 
 ```bash
-python main.py --output my_custom_report.pptx
+python main.py --input-file path/to/your/dataset.csv --output-format both
 ```
 
-### Generate Test Data
-
-If you need to regenerate the test CSV file:
+### Enable AI Insights with Gemini
 
 ```bash
-python scripts/generate_dummy_data.py
+python main.py --use-gemini --output-format both
 ```
 
-This creates `data/adtech_data.csv` with 500 rows of realistic AdTech data.
-
-## Demo Flow (Hackathon Presentation)
-
-1. **Show the "boring" CSV:**
-
-   ```bash
-   # Display first few rows
-   python -c "import pandas as pd; print(pd.read_csv('data/adtech_data.csv').head())"
-   ```
-
-2. **Run the magic:**
-
-   ```bash
-   python main.py
-   ```
-
-3. **Open the PowerPoint:**
-   - Navigate to `reports/weekly_performance_report.pptx`
-   - Show the automated transformation from raw data to executive-ready presentation
-
-## How It Works
-
-### 1. Data Processing (`main.py`)
-
-- Loads CSV using pandas
-- Calculates metrics:
-  - Total impressions, clicks
-  - Average CTR (Click-Through Rate)
-  - Average CPC (Cost Per Click)
-  - Platform breakdowns
-  - Date ranges
-
-### 2. AI Insights (`llm/client.py`)
-
-- Sends aggregated statistics to LLM API
-- Includes unstructured context (client emails)
-- Uses internal system prompt for consistent analysis
-- Generates exactly 3 executive bullet points
-- Falls back to heuristic summary if API unavailable
-
-### 3. Visualization (`main.py`)
-
-- Generates "Clicks over Time" line chart
-- Saves as PNG in `charts/` directory
-- Uses matplotlib for professional styling
-
-### 4. PowerPoint Generation (`ppt/pptx_generator.py`)
-
-- Creates title slide: "Weekly Performance Report"
-- Adds content slide with:
-  - Chart on the left (50% width)
-  - AI-generated bullet points on the right
-- Ensures proper spacing and layout
-
-## Internal System Prompt
-
-The LLM receives this prompt structure:
-
-```
-You are a Senior Data Analyst for a major AdTech firm. I will provide you with aggregated data metrics in JSON format.
-
-Your Task:
-- Analyze the trends (identify peaks, troughs, and anomalies)
-- Compare the efficiency (CTR and CPC) across platforms
-- Write a concise executive summary consisting of exactly 3 bullet points
-- Tone: Professional, direct, and action-oriented
-```
-
-## Unstructured Data Support
-
-The system reads `data/email.txt` to incorporate client feedback into insights. Example:
-
-```
-We are worried about mobile performance on recent campaigns, especially on Facebook.
-```
-
-The LLM will incorporate these concerns into the generated bullet points.
-
-## Requirements
-
-See `requirements.txt` for full list. Key dependencies:
-
-- `pandas` - Data processing
-- `matplotlib` - Chart generation
-- `python-pptx` - PowerPoint creation
-- `openai` - OpenAI API client (optional)
-- `google-generativeai` - Gemini API client (optional)
-- `python-dotenv` - For loading .env file (optional but recommended)
-
-## Troubleshooting
-
-### "No valid LLM API key configured"
-
-This is expected if you haven't set API keys. The system will use a heuristic fallback that still generates valid insights.
-
-### "FileNotFoundError: data/adtech_data.csv"
-
-The script will auto-generate this file if missing. Or run:
+### Save Cleaned Dataset
 
 ```bash
-python scripts/generate_dummy_data.py
+python main.py --save-cleaned --output-format both
 ```
 
-### PowerPoint layout issues
+### All Options
 
-If elements overlap, check `ppt/pptx_generator.py` layout calculations. The current implementation uses:
+```bash
+python main.py --help
+```
 
-- Left side: 50% width for chart
-- Right side: 50% width for text
-- Proper margins to prevent overlap
+## 📁 Project Structure
 
-## Future Enhancements
+```
+automated-insight-engine/
+├── data/
+│   ├── input/              # Raw datasets (CSV, XLSX, JSON)
+│   └── output/             # Cleaned datasets
+├── reports/
+│   ├── pdf/                # Generated PDF reports
+│   ├── pptx/               # Generated PowerPoint presentations
+│   └── plots/              # Chart images (PNG)
+├── src/
+│   ├── config.py           # Configuration and paths
+│   ├── kaggle_downloader.py # Kaggle dataset downloader
+│   ├── ingestion.py        # Data loading module
+│   ├── preprocessing.py    # Data cleaning and preparation
+│   ├── metrics.py          # KPI calculation
+│   ├── visualization.py    # Chart generation
+│   ├── insight_engine.py   # AI/rule-based insights
+│   ├── report_pdf.py       # PDF report generation
+│   ├── report_pptx.py      # PowerPoint generation
+│   └── main.py             # Main orchestration pipeline
+├── requirements.txt        # Python dependencies
+├── .env.example           # Environment variables template
+└── README.md              # This file
+```
 
-- Support for multiple chart types
-- Multi-slide presentations with detailed breakdowns
-- Database connectivity (SQL, PostgreSQL)
-- Real-time data ingestion
-- Customizable templates
+## 📊 Metrics Calculated
 
-## License
+The engine automatically calculates:
 
-CONFIDENTIAL AND PROPRIETARY | DO NOT DISTRIBUTE
+- **CTR (Click-Through Rate)**: `(Clicks / Impressions) × 100`
+- **CPC (Cost Per Click)**: `Spend / Clicks`
+- **CPM (Cost Per Mille)**: `(Spend / Impressions) × 1000`
+- **Conversion Rate**: `(Conversions / Clicks) × 100`
+- **Cost Per Conversion**: `Spend / Conversions`
+- **ROAS (Return on Ad Spend)**: `Revenue / Spend` (if revenue data available)
 
----
+## 📈 Visualizations Generated
 
-**Built for Hackathon | Track: Data Engineering & Analytics**
+1. **CTR Trend Over Time** - Line chart with trend analysis
+2. **Spend vs Clicks** - Dual-axis comparison
+3. **CPC & CPM Distribution** - Histograms with averages
+4. **Conversion Funnel** - Impressions → Clicks → Conversions
+5. **Performance by Gender** - Multi-metric comparison
+6. **Performance by Age Group** - Demographic analysis
+
+## 🤖 AI Insights
+
+When enabled, the Gemini AI provides:
+
+1. **Executive Summary** - C-suite ready overview
+2. **Key Performance Shifts** - Important trends and changes
+3. **Root-Cause Analysis** - Why metrics perform as they do
+4. **Actionable Recommendations** - Specific, data-driven suggestions
+
+If Gemini is not configured, the engine falls back to intelligent rule-based insights.
+
+## 🎓 Example Commands
+
+### Hackathon Quick Start
+
+```bash
+# Complete pipeline in one command
+python main.py --download-kaggle --use-gemini --output-format both --save-cleaned
+```
+
+### Demo with Existing Data
+
+```bash
+# Use pre-downloaded data, skip AI, generate PDF
+python main.py --output-format pdf
+```
+
+### Custom Dataset Analysis
+
+```bash
+# Analyze your own marketing data
+python main.py --input-file ../data/my_campaign.csv --output-format both
+```
+
+## 🔧 Troubleshooting
+
+### Kaggle Download Fails
+
+**Error: "kaggle.json not found"**
+
+- Ensure `kaggle.json` is in the correct location
+- Check file permissions (Linux/Mac: `chmod 600 ~/.kaggle/kaggle.json`)
+
+**Error: "kaggle command not found"**
+
+```bash
+pip install kaggle
+```
+
+### Matplotlib/Visualization Errors
+
+```bash
+# Windows users may need:
+pip install --upgrade matplotlib pillow
+
+# Linux users may need:
+sudo apt-get install python3-tk
+```
+
+### ReportLab PDF Issues
+
+```bash
+pip install --upgrade reportlab
+```
+
+### Google Gemini API Errors
+
+- Verify your API key in `.env`
+- Check your API quota at [Google AI Studio](https://makersuite.google.com/)
+- The system will automatically fall back to rule-based insights if Gemini fails
+
+## 📝 Dependencies
+
+See `requirements.txt` for full list. Key libraries:
+
+- **pandas** - Data manipulation
+- **matplotlib** - Visualizations
+- **reportlab** - PDF generation
+- **python-pptx** - PowerPoint generation
+- **kaggle** - Kaggle API
+- **google-generativeai** - AI insights (optional)
