@@ -24,35 +24,7 @@ The Automated Insight Engine is a Python-based pipeline that transforms raw AdTe
 - ✅ Fallback heuristic summaries when LLM APIs are unavailable
 - ✅ Support for custom CSV datasets via command-line arguments
 
-## Project Structure
 
-```
-Hackathon/
-├── main.py                      # Main orchestrator script
-├── requirements.txt             # Python dependencies
-├── README.md                    # This file
-│
-├── data/                        # Data directory
-│   ├── adtech_data.csv         # Input CSV file (auto-generated if missing)
-│   └── email.txt               # Unstructured client feedback
-│
-├── charts/                      # Generated chart images
-│   └── clicks_over_time.png    # Auto-generated visualization
-│
-├── reports/                     # Output directory
-│   └── weekly_performance_report.pptx  # Generated PowerPoint
-│
-├── llm/                         # LLM integration module
-│   ├── __init__.py
-│   └── client.py               # OpenAI/Gemini client with fallback
-│
-├── ppt/                         # PowerPoint generation module
-│   ├── __init__.py
-│   └── pptx_generator.py       # Presentation builder
-│
-└── scripts/                     # Utility scripts
-    └── generate_dummy_data.py  # CSV data generator for testing
-```
 
 ## Installation
 
@@ -191,4 +163,5 @@ python scripts/generate_dummy_data.py
 ```
 
 This creates `data/adtech_data.csv` with 500 rows of realistic AdTech data.
+
 
