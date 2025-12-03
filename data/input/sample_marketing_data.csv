@@ -1,0 +1,444 @@
+user_id,age,gender,location,interests,ad_id,ad_category,ad_platform,ad_type,impressions,clicks,conversion,time_spent_on_ad,day_of_week,device_type,engagement_score
+1,45-54,Male,Texas,Food,38,Food,Instagram,Video,3336,371,28,1.863067273782867,Wednesday,Desktop,6.561384038616682
+2,55+,Male,Texas,Travel,39,Sports,Instagram,Text,2452,17,9,13.22729568636382,Thursday,Desktop,4.076625569482829
+3,35-44,Female,New York,Sports,26,Fashion,Twitter,Image,2032,487,16,43.080916216916876,Sunday,Mobile,8.864874599689166
+4,55+,Male,Texas,Travel,46,Electronics,Twitter,Text,8656,361,1,23.81059018539622,Sunday,Tablet,1.116165051828928
+5,55+,Male,Florida,Technology,50,Fashion,Facebook,Video,5016,493,5,40.08655286955488,Thursday,Desktop,3.040215868674313
+6,25-34,Male,Florida,Travel,15,Travel,Facebook,Video,5598,103,4,21.47079692433895,Wednesday,Tablet,6.102035166245824
+7,35-44,Female,New York,Sports,34,Electronics,Twitter,Image,1046,330,27,24.05455398744859,Tuesday,Mobile,4.163880340447282
+8,35-44,Female,Texas,Technology,42,Food,Facebook,Image,9669,436,40,10.36205354769141,Friday,Desktop,6.4933974578649485
+9,35-44,Male,Texas,Travel,44,Sports,Google,Text,1539,48,4,16.235630160303444,Thursday,Desktop,1.2169917406780013
+10,55+,Female,Texas,Food,49,Fashion,Google,Image,7830,90,17,36.719293692947645,Wednesday,Mobile,2.048130374335413
+11,45-54,Male,Illinois,Technology,40,Electronics,Twitter,Image,4957,196,25,26.556623567594816,Saturday,Desktop,2.143866161965953
+12,35-44,Male,California,Technology,11,Travel,Facebook,Video,440,93,19,46.68385829373111,Sunday,Mobile,2.7035528132440847
+13,55+,Female,Illinois,Food,3,Electronics,Instagram,Image,482,97,40,51.302512341362224,Wednesday,Desktop,5.133982967204885
+14,25-34,Male,California,Fashion,6,Travel,Google,Image,9848,251,48,32.95713867478883,Tuesday,Mobile,7.769158295892141
+15,45-54,Female,Texas,Sports,9,Food,Twitter,Video,8591,351,26,45.737770231307486,Tuesday,Desktop,9.14984954136011
+16,25-34,Female,Texas,Fashion,6,Sports,Facebook,Video,238,102,48,19.10736627847963,Monday,Tablet,8.518352772558215
+17,45-54,Male,Illinois,Travel,9,Food,Twitter,Text,458,95,11,25.483301708604614,Thursday,Tablet,2.771990845981152
+18,55+,Male,Illinois,Food,39,Fashion,Instagram,Image,5031,53,6,43.05388289679303,Monday,Tablet,4.970354970075691
+19,18-24,Female,California,Fashion,31,Electronics,Google,Video,9814,146,2,23.78650757620481,Sunday,Desktop,2.794704379826815
+20,45-54,Male,Florida,Technology,32,Travel,Twitter,Text,3556,430,9,35.72179117438034,Wednesday,Desktop,3.380246350004717
+21,25-34,Male,California,Travel,41,Travel,Twitter,Text,1727,83,33,11.936993965868178,Friday,Tablet,5.531922833606975
+22,55+,Male,Illinois,Travel,50,Electronics,Twitter,Image,9595,45,24,36.38650758325938,Friday,Tablet,1.6129812225117028
+23,45-54,Female,Illinois,Fashion,12,Electronics,Instagram,Image,6726,110,34,51.82930872638672,Tuesday,Mobile,2.9635689663394587
+24,18-24,Female,New York,Fashion,8,Fashion,Twitter,Text,5104,485,15,52.249738749582114,Friday,Mobile,9.418403451764055
+25,18-24,Male,Illinois,Food,8,Food,Instagram,Video,9426,165,1,43.73631997344284,Friday,Mobile,5.195046633926401
+26,35-44,Female,New York,Sports,50,Travel,Instagram,Text,6752,435,23,44.99944936549144,Sunday,Tablet,5.00847873380085
+27,35-44,Female,Florida,Fashion,28,Fashion,Instagram,Image,6516,264,9,33.91771926389134,Friday,Tablet,1.13110439276151
+28,25-34,Female,California,Fashion,20,Food,Google,Video,3270,180,37,35.49541731978366,Wednesday,Tablet,3.2265977235251118
+29,45-54,Female,California,Technology,47,Fashion,Google,Video,3935,478,21,8.885384303220562,Friday,Mobile,8.796631923839632
+30,45-54,Female,New York,Travel,7,Travel,Twitter,Text,8117,225,25,27.187692116856766,Saturday,Desktop,2.481655854328019
+31,35-44,Male,California,Sports,11,Electronics,Twitter,Image,2251,179,42,27.595800749295464,Friday,Tablet,4.73612445581249
+32,45-54,Male,Illinois,Technology,20,Electronics,Google,Text,9529,261,38,57.55137230439667,Friday,Desktop,1.1289781528030112
+33,45-54,Male,Texas,Food,16,Food,Facebook,Text,7005,369,26,26.434124894774076,Monday,Desktop,5.305019335035002
+34,18-24,Female,New York,Food,4,Sports,Google,Text,2934,331,28,33.4112160492627,Wednesday,Desktop,1.1891899605359544
+35,35-44,Female,California,Fashion,6,Food,Instagram,Video,9290,64,46,32.46183255746705,Tuesday,Mobile,8.3764859775922
+36,55+,Male,New York,Fashion,22,Sports,Google,Video,2667,465,37,38.568941305615304,Monday,Desktop,8.423683907383932
+37,35-44,Female,New York,Food,26,Fashion,Instagram,Image,1407,441,19,45.14573704858186,Thursday,Tablet,8.08967969472133
+38,55+,Male,Texas,Fashion,3,Fashion,Twitter,Image,8948,100,26,14.277470694081455,Wednesday,Mobile,3.550276620020064
+39,18-24,Male,Illinois,Sports,41,Travel,Facebook,Text,2760,287,40,32.19474072680771,Saturday,Tablet,8.535134963996363
+40,25-34,Male,New York,Fashion,42,Sports,Twitter,Text,3830,110,19,49.729144731645796,Wednesday,Tablet,5.886983193447424
+41,45-54,Female,California,Travel,14,Travel,Instagram,Text,6307,164,43,28.323768116413177,Thursday,Mobile,4.364272979803022
+42,18-24,Female,Florida,Fashion,11,Electronics,Instagram,Image,3262,386,18,17.42899523604081,Thursday,Tablet,6.627969637338097
+43,45-54,Male,New York,Technology,18,Sports,Instagram,Video,1240,358,19,39.62783544602164,Thursday,Tablet,1.111069414543366
+44,25-34,Male,New York,Sports,12,Food,Facebook,Video,8558,460,34,49.60227635214825,Sunday,Mobile,2.2866478984067693
+45,25-34,Male,Texas,Technology,23,Electronics,Google,Text,1808,373,46,4.725277282716087,Tuesday,Tablet,7.680641843532365
+46,18-24,Male,Illinois,Technology,12,Electronics,Twitter,Text,3730,150,1,46.8306385210264,Friday,Desktop,3.197454478445377
+47,25-34,Female,Florida,Travel,13,Food,Twitter,Text,3311,182,29,49.4772280447445,Wednesday,Tablet,6.382082055958747
+48,55+,Female,California,Sports,25,Electronics,Google,Text,6638,19,33,28.229852727727803,Sunday,Desktop,4.465923425407267
+49,25-34,Male,Florida,Sports,45,Sports,Twitter,Image,9802,237,21,59.015033752289575,Friday,Tablet,8.693252009193353
+50,45-54,Male,California,Sports,19,Travel,Facebook,Video,575,274,2,47.415792101731235,Friday,Mobile,9.571737753969792
+51,45-54,Female,Illinois,Sports,46,Electronics,Twitter,Text,7784,447,5,46.64609132884428,Saturday,Mobile,8.952082555331714
+52,45-54,Female,California,Sports,36,Sports,Instagram,Image,9268,257,14,45.12247589031224,Thursday,Tablet,3.43557995224237
+53,45-54,Male,Texas,Travel,45,Fashion,Google,Text,1307,256,26,9.885878089878165,Tuesday,Mobile,2.7474658214147403
+54,55+,Male,Texas,Fashion,8,Sports,Facebook,Text,2060,164,9,13.816622300727637,Saturday,Tablet,5.269914042586615
+55,35-44,Male,Texas,Technology,29,Travel,Google,Video,657,43,8,28.375417756401077,Monday,Mobile,1.0660073575256224
+56,18-24,Female,Texas,Sports,32,Sports,Facebook,Text,982,138,32,16.57625664760849,Sunday,Desktop,1.2322845357686356
+57,45-54,Female,Florida,Fashion,44,Food,Instagram,Video,4861,169,31,25.499217367708386,Sunday,Tablet,5.979615756607001
+58,25-34,Female,Illinois,Fashion,18,Travel,Google,Video,5967,98,47,53.41938248545232,Tuesday,Desktop,5.684044637487574
+59,45-54,Male,California,Technology,6,Fashion,Twitter,Video,7063,102,5,49.63528662087688,Friday,Desktop,9.95123790131734
+60,25-34,Male,California,Travel,18,Food,Facebook,Image,7266,336,40,38.17235283031895,Sunday,Tablet,2.816576518273823
+61,25-34,Female,Texas,Food,19,Sports,Google,Image,8029,250,35,51.62910326081511,Tuesday,Desktop,3.3229353624442157
+62,45-54,Female,Texas,Food,22,Travel,Twitter,Video,5447,332,1,47.2425709520177,Sunday,Tablet,2.0218657809365803
+63,55+,Male,New York,Fashion,37,Fashion,Google,Text,7369,477,28,26.31011097861254,Sunday,Desktop,9.257887086883702
+64,25-34,Female,Illinois,Technology,32,Food,Google,Video,9902,413,3,12.862843970946763,Thursday,Tablet,8.000301200126057
+65,25-34,Female,Florida,Food,41,Fashion,Google,Text,8225,126,0,31.337861360551013,Monday,Tablet,8.401052003111626
+66,45-54,Male,California,Fashion,3,Sports,Facebook,Video,2554,103,18,44.437504069184456,Thursday,Mobile,9.124874091680578
+67,25-34,Female,New York,Travel,28,Fashion,Twitter,Text,4594,172,25,26.74875632504599,Monday,Tablet,5.7240998805325445
+68,25-34,Male,New York,Food,10,Electronics,Instagram,Image,2046,108,24,40.33954267724994,Sunday,Tablet,5.060738723056513
+69,45-54,Male,California,Fashion,35,Food,Facebook,Text,2908,122,9,6.565318151171574,Saturday,Desktop,3.9735232629905486
+70,45-54,Male,Florida,Fashion,29,Fashion,Facebook,Video,6742,368,14,45.1322794459128,Friday,Tablet,6.302931529130699
+71,18-24,Male,New York,Sports,15,Sports,Facebook,Image,3925,100,21,48.95010357369066,Sunday,Mobile,5.088505571108403
+72,55+,Male,New York,Travel,33,Sports,Instagram,Text,3636,355,47,42.703433491051925,Monday,Desktop,5.064090279450176
+73,55+,Male,Illinois,Sports,7,Fashion,Twitter,Text,6168,215,20,58.06855166405557,Monday,Desktop,9.43235077358025
+74,25-34,Male,Florida,Technology,12,Sports,Twitter,Text,3902,26,21,49.772471390177785,Monday,Mobile,9.856283628512172
+75,55+,Female,New York,Sports,49,Travel,Twitter,Text,4799,283,35,54.28252994471576,Sunday,Desktop,8.168359503966226
+76,25-34,Male,Florida,Sports,30,Travel,Google,Text,2070,182,33,56.08069392400124,Tuesday,Desktop,7.810822812222355
+77,18-24,Male,California,Food,21,Travel,Google,Image,5906,125,29,48.279531520554706,Saturday,Desktop,7.125023456011913
+78,45-54,Female,Texas,Fashion,31,Electronics,Google,Image,6242,358,24,40.78127167838345,Tuesday,Desktop,2.4946736710016233
+79,45-54,Female,New York,Travel,24,Fashion,Instagram,Image,2919,477,44,1.337396300286568,Friday,Mobile,1.5319523878808907
+80,45-54,Female,Illinois,Sports,20,Electronics,Google,Image,9194,190,27,28.483719440164357,Sunday,Mobile,7.216536836019368
+81,55+,Male,California,Travel,37,Sports,Instagram,Video,464,100,0,34.698575618719296,Monday,Desktop,7.559076000309184
+82,18-24,Female,Florida,Sports,4,Electronics,Twitter,Image,4358,91,48,18.93778607443198,Saturday,Desktop,1.4227569198832581
+83,55+,Male,California,Technology,28,Sports,Google,Text,3219,333,44,19.76816236730485,Saturday,Mobile,9.352465752059633
+84,55+,Male,New York,Sports,44,Sports,Google,Text,1963,458,3,57.708405526899746,Wednesday,Mobile,1.8202657550020978
+85,18-24,Male,Florida,Food,20,Food,Facebook,Image,215,123,6,53.610941046962004,Friday,Mobile,3.5731048039408213
+86,18-24,Male,Texas,Fashion,24,Travel,Instagram,Text,7184,266,48,51.101561324600546,Saturday,Desktop,7.05150831518834
+87,18-24,Female,California,Technology,50,Sports,Twitter,Image,8116,67,8,24.954696300660526,Sunday,Desktop,2.528853349640287
+88,18-24,Female,New York,Sports,49,Food,Facebook,Text,2484,163,35,1.808214474125958,Monday,Tablet,1.4987429959801999
+89,45-54,Male,Illinois,Travel,32,Travel,Facebook,Video,4035,374,18,5.733112540887131,Monday,Mobile,3.980318402477348
+90,35-44,Male,Florida,Technology,41,Sports,Twitter,Video,7842,413,0,19.419585724838615,Saturday,Desktop,7.893744173696612
+91,35-44,Male,California,Technology,36,Sports,Facebook,Image,5542,125,9,1.928831866744942,Tuesday,Mobile,4.723108110867344
+92,18-24,Female,California,Sports,34,Electronics,Instagram,Image,2590,352,35,2.0118371329966886,Friday,Desktop,6.876756297171454
+93,35-44,Male,Texas,Technology,36,Electronics,Instagram,Image,7080,275,8,55.07959479690225,Monday,Mobile,6.21657187505323
+94,35-44,Male,Texas,Travel,2,Travel,Google,Text,9234,324,44,42.66335162502419,Saturday,Desktop,1.1999663382302237
+95,18-24,Female,Illinois,Technology,15,Sports,Facebook,Image,7761,212,45,19.228403414021006,Monday,Tablet,9.89685988341136
+96,35-44,Female,Illinois,Travel,34,Fashion,Google,Video,1824,50,41,8.826030078456236,Saturday,Tablet,1.3728527993744897
+97,55+,Male,New York,Sports,36,Electronics,Facebook,Text,8282,114,31,31.18650735580955,Friday,Mobile,9.710224638836365
+98,25-34,Female,New York,Fashion,6,Travel,Instagram,Image,2867,398,31,1.315423490407503,Saturday,Desktop,5.9487776052795835
+99,25-34,Female,Illinois,Technology,39,Sports,Instagram,Text,1237,387,5,56.3664108876305,Wednesday,Desktop,9.668431243585598
+100,18-24,Male,Illinois,Fashion,42,Sports,Instagram,Text,4217,202,47,25.474092043947884,Saturday,Mobile,2.032782394724519
+101,45-54,Female,Florida,Travel,12,Fashion,Facebook,Image,3520,410,37,24.737762359002634,Saturday,Desktop,5.413676672669618
+102,18-24,Male,Texas,Technology,3,Travel,Instagram,Text,5945,287,16,24.04502284732515,Sunday,Mobile,2.5255368267945277
+103,45-54,Female,New York,Food,45,Sports,Facebook,Video,4878,363,9,5.090371492878121,Friday,Desktop,1.4587738932019816
+104,25-34,Male,Texas,Fashion,18,Electronics,Google,Video,4006,246,49,38.66101214771777,Sunday,Mobile,6.557762035560804
+105,18-24,Male,Texas,Technology,40,Fashion,Facebook,Text,3737,434,26,44.24721355807285,Saturday,Desktop,2.870050788655223
+106,55+,Male,Illinois,Fashion,21,Travel,Google,Image,3053,230,49,40.89139845770912,Friday,Mobile,6.289273164587914
+107,35-44,Female,Florida,Technology,15,Fashion,Facebook,Text,6029,77,34,9.167694106434265,Wednesday,Desktop,2.0112803375408705
+108,45-54,Male,California,Sports,33,Electronics,Google,Video,376,206,20,35.15156991409996,Friday,Tablet,3.987878242894325
+109,35-44,Female,Florida,Fashion,35,Travel,Instagram,Text,2099,265,24,34.599584566162974,Monday,Desktop,8.034693022479225
+110,35-44,Male,Florida,Food,26,Fashion,Google,Text,1327,148,27,52.23623648854154,Sunday,Mobile,4.933463696579689
+111,18-24,Male,Texas,Food,8,Food,Instagram,Video,6437,321,46,23.368531844163172,Friday,Tablet,6.649708734076027
+112,35-44,Female,Florida,Travel,36,Electronics,Instagram,Text,3835,444,14,22.917670675906617,Wednesday,Desktop,6.827121466709913
+113,55+,Male,New York,Technology,48,Electronics,Google,Text,795,158,3,37.49309646437295,Thursday,Tablet,8.593795395885643
+114,35-44,Male,Texas,Fashion,30,Electronics,Facebook,Image,9601,108,28,38.351286556471265,Saturday,Desktop,3.9243051496597716
+115,18-24,Female,New York,Travel,23,Food,Facebook,Image,4252,85,8,28.68782841222163,Friday,Tablet,7.185660063242658
+116,55+,Male,California,Fashion,42,Food,Twitter,Video,8001,291,26,27.140502377494844,Saturday,Mobile,9.654542263415491
+117,25-34,Male,Texas,Technology,44,Sports,Facebook,Video,7570,380,25,30.154712567635077,Tuesday,Desktop,7.5721900092208125
+118,35-44,Male,California,Food,14,Fashion,Twitter,Video,7637,412,18,51.8016726706954,Monday,Desktop,5.4088342904597
+119,18-24,Male,Texas,Sports,14,Sports,Facebook,Image,2941,118,27,28.20884717398069,Sunday,Mobile,6.676457000427363
+120,25-34,Female,Illinois,Food,2,Fashion,Facebook,Video,4308,197,16,56.45597572621953,Monday,Tablet,7.657146079867974
+121,25-34,Female,Florida,Travel,37,Food,Instagram,Video,8833,208,42,30.736222052183237,Tuesday,Mobile,6.510481891244852
+122,45-54,Male,Illinois,Sports,5,Food,Twitter,Video,1188,312,40,57.00284089767259,Tuesday,Mobile,1.1500823214085525
+123,55+,Female,California,Travel,38,Sports,Facebook,Image,3463,336,41,50.137082210275466,Sunday,Tablet,2.7529614791850325
+124,35-44,Male,Florida,Technology,45,Travel,Twitter,Text,124,163,49,22.383448034333917,Friday,Mobile,8.294213954939195
+125,18-24,Female,Texas,Sports,41,Sports,Instagram,Video,9864,49,19,51.95484385650035,Tuesday,Desktop,3.453855825812362
+126,45-54,Male,Florida,Travel,47,Fashion,Instagram,Text,6244,142,44,7.493733767865798,Thursday,Desktop,7.584059076050205
+127,55+,Male,New York,Technology,14,Sports,Twitter,Video,5768,414,39,55.577783345237854,Saturday,Desktop,4.3490819371752885
+128,45-54,Male,Florida,Food,39,Electronics,Instagram,Text,4336,471,38,38.2669673898906,Saturday,Mobile,5.696958953421489
+129,55+,Male,New York,Technology,25,Fashion,Google,Image,8168,141,48,4.20905416281636,Wednesday,Desktop,1.6117596983746334
+130,55+,Male,Florida,Fashion,20,Fashion,Google,Image,2335,288,22,39.01114669539788,Tuesday,Desktop,2.6310300494473857
+131,35-44,Male,New York,Technology,2,Travel,Instagram,Video,7395,371,46,58.48061159454061,Tuesday,Desktop,9.61477267167311
+132,55+,Female,California,Technology,39,Food,Google,Text,8492,93,31,5.118238622263107,Thursday,Desktop,9.011242481022226
+133,45-54,Male,Illinois,Fashion,6,Fashion,Facebook,Image,8548,408,46,33.726574877025094,Monday,Desktop,6.870475998091452
+134,55+,Female,Texas,Travel,17,Food,Twitter,Video,3847,251,32,45.11986663580297,Monday,Desktop,5.136801376471636
+135,35-44,Male,Florida,Travel,25,Sports,Facebook,Video,3275,125,45,48.80525661527235,Saturday,Mobile,7.0818516360570145
+136,35-44,Female,Illinois,Technology,28,Electronics,Twitter,Image,4997,118,4,25.415820453926955,Saturday,Desktop,6.567492601845451
+137,45-54,Female,Texas,Fashion,2,Travel,Instagram,Image,5137,230,42,13.045826990926336,Friday,Desktop,6.116970300441508
+138,25-34,Female,Texas,Fashion,35,Food,Facebook,Video,7527,401,47,3.498194447570646,Sunday,Tablet,1.5325936467718764
+139,25-34,Male,New York,Food,37,Fashion,Instagram,Text,8705,50,33,35.20384326873626,Thursday,Mobile,6.695223495953562
+140,55+,Male,California,Travel,5,Food,Instagram,Text,2114,377,39,27.721753145789037,Sunday,Mobile,7.9202804011405155
+141,18-24,Female,California,Sports,1,Fashion,Twitter,Text,1481,156,10,56.97591931383295,Sunday,Mobile,9.94673489181018
+142,55+,Male,Illinois,Travel,40,Food,Twitter,Video,1198,121,49,4.575689555179677,Wednesday,Mobile,1.0997069733487872
+143,45-54,Female,California,Travel,12,Fashion,Twitter,Image,3526,112,2,41.43832526331434,Sunday,Desktop,7.57156107979609
+144,45-54,Male,Florida,Food,36,Sports,Facebook,Video,3755,55,32,2.473007105083373,Wednesday,Desktop,6.146103843423824
+145,45-54,Female,California,Sports,45,Fashion,Google,Image,8038,421,10,11.114616425922021,Sunday,Tablet,4.90646958472861
+146,45-54,Female,Illinois,Food,23,Fashion,Twitter,Text,9201,484,15,27.761160995447213,Thursday,Tablet,2.148131571142338
+147,45-54,Male,California,Sports,47,Electronics,Twitter,Text,287,333,17,27.837474125369223,Wednesday,Mobile,4.681766337713886
+148,35-44,Female,Florida,Technology,31,Fashion,Facebook,Image,5509,387,29,41.45633203308499,Monday,Tablet,4.1893946468752175
+149,25-34,Male,New York,Sports,11,Electronics,Twitter,Image,2192,280,47,54.70256905719764,Wednesday,Tablet,3.7254690008086797
+150,45-54,Female,Illinois,Food,10,Travel,Facebook,Video,2230,492,9,38.70289737598033,Wednesday,Mobile,7.577916609899869
+151,18-24,Female,New York,Travel,3,Electronics,Instagram,Text,5342,430,17,57.25857077323902,Thursday,Mobile,7.306529691558374
+152,18-24,Male,New York,Sports,14,Sports,Twitter,Video,8649,394,37,53.01532275280186,Thursday,Tablet,6.301180818828204
+153,18-24,Male,New York,Sports,16,Electronics,Twitter,Video,5747,204,18,35.48548793631662,Wednesday,Desktop,9.44798331964035
+154,18-24,Male,Texas,Fashion,10,Travel,Instagram,Video,5285,376,35,50.19372510421081,Tuesday,Tablet,4.14868945762769
+155,35-44,Female,Texas,Travel,29,Sports,Instagram,Text,5876,289,12,38.912079009094406,Thursday,Tablet,3.194217439391616
+156,18-24,Male,New York,Technology,10,Food,Instagram,Video,8013,292,45,5.634912024499902,Friday,Desktop,6.9031298178855955
+157,45-54,Female,Illinois,Food,12,Food,Twitter,Video,7647,49,2,44.69331867231109,Friday,Desktop,2.7893265484366268
+158,55+,Female,Florida,Technology,30,Electronics,Google,Video,7923,456,9,6.599598034773426,Monday,Mobile,3.8350945646508214
+159,18-24,Male,Florida,Travel,41,Electronics,Google,Video,7455,198,37,36.05088405361303,Sunday,Mobile,3.0214219606739636
+160,35-44,Male,California,Sports,1,Travel,Google,Video,6565,173,0,42.4557721456355,Wednesday,Tablet,1.622382109466511
+161,35-44,Female,Illinois,Sports,5,Travel,Twitter,Video,1597,491,26,4.9251288844404595,Tuesday,Desktop,8.447488674721061
+162,18-24,Female,Texas,Travel,20,Fashion,Instagram,Text,2655,486,45,14.616884581665374,Monday,Mobile,3.2908648862949503
+163,55+,Male,New York,Sports,8,Travel,Twitter,Video,5509,33,7,55.02466170343734,Wednesday,Tablet,5.257247530087186
+164,18-24,Male,California,Sports,43,Fashion,Instagram,Image,3051,33,45,37.36255504174088,Thursday,Desktop,1.3898374592888074
+165,35-44,Male,Florida,Sports,12,Sports,Twitter,Video,1338,499,41,15.530875109821363,Friday,Tablet,7.294055196273788
+166,25-34,Male,Texas,Food,1,Electronics,Twitter,Video,9265,13,16,41.75010649773239,Saturday,Mobile,3.975049020756617
+167,45-54,Male,Texas,Food,20,Sports,Instagram,Text,4827,332,8,36.20980877773969,Tuesday,Mobile,7.70263055046289
+168,35-44,Female,New York,Fashion,28,Travel,Google,Text,4065,299,5,30.592966295158952,Saturday,Desktop,4.7116275442107955
+169,18-24,Female,Florida,Technology,43,Sports,Instagram,Image,5786,450,42,58.59503152429694,Friday,Tablet,2.7618004576506214
+170,45-54,Female,Illinois,Travel,37,Sports,Facebook,Image,9342,442,24,41.323772867043026,Sunday,Desktop,5.618575740538323
+171,18-24,Female,Texas,Travel,47,Sports,Facebook,Text,3801,480,38,23.151025470406847,Sunday,Mobile,2.174541036736958
+172,18-24,Male,New York,Travel,37,Travel,Instagram,Text,2880,190,48,48.20433249253521,Saturday,Mobile,4.964852438856953
+173,25-34,Male,Illinois,Fashion,12,Sports,Twitter,Video,7498,257,27,53.190414282350076,Thursday,Tablet,3.8557492967843787
+174,45-54,Male,Florida,Food,37,Fashion,Facebook,Text,1688,125,32,8.388013011493054,Wednesday,Tablet,9.207636257796699
+175,45-54,Female,Texas,Fashion,49,Travel,Facebook,Image,2468,288,36,12.832625692870723,Thursday,Tablet,1.5483584954864795
+176,25-34,Female,Illinois,Travel,49,Sports,Twitter,Video,5889,374,8,13.757393538539002,Saturday,Desktop,7.2461567269516785
+177,35-44,Male,Illinois,Technology,44,Travel,Twitter,Image,536,78,17,41.78149675380588,Thursday,Tablet,2.644760493886923
+178,18-24,Male,Illinois,Sports,28,Food,Google,Video,2928,360,20,36.57933374814372,Friday,Tablet,3.8714056689901586
+179,55+,Female,Texas,Food,47,Fashion,Twitter,Text,1656,263,1,37.5205023172167,Tuesday,Mobile,4.739626567558593
+180,18-24,Female,Texas,Food,15,Sports,Instagram,Image,7670,190,42,56.50562468168056,Thursday,Mobile,9.172135804374768
+181,18-24,Male,California,Fashion,6,Food,Instagram,Video,7580,327,37,46.77878043563105,Friday,Tablet,3.1832043946644264
+182,35-44,Male,Florida,Food,44,Food,Google,Video,9596,178,39,8.548278546195208,Tuesday,Tablet,1.821779222902032
+183,18-24,Female,New York,Travel,20,Travel,Facebook,Text,282,322,35,21.50291786308568,Sunday,Mobile,3.868206435914712
+184,25-34,Male,Illinois,Travel,50,Food,Facebook,Text,7290,258,49,26.6882251243684,Wednesday,Tablet,1.9420837348198001
+185,25-34,Male,California,Fashion,14,Fashion,Twitter,Text,6787,197,42,24.36173373610869,Saturday,Desktop,2.1573683736449727
+186,45-54,Male,New York,Travel,2,Fashion,Instagram,Image,5665,63,36,40.48920794055087,Sunday,Desktop,6.1646553817752405
+187,55+,Female,California,Technology,9,Electronics,Facebook,Video,7341,335,14,53.62169309213719,Wednesday,Desktop,1.54811739789544
+188,18-24,Female,Texas,Fashion,37,Fashion,Google,Text,7751,366,27,19.05703634784449,Sunday,Tablet,1.2783779325420943
+189,18-24,Female,Illinois,Technology,20,Food,Google,Image,5675,322,17,33.56075104884995,Monday,Mobile,7.42972691323448
+190,35-44,Female,New York,Sports,26,Fashion,Instagram,Image,1689,147,33,47.575155892901556,Sunday,Tablet,4.2548238535694
+191,25-34,Female,New York,Technology,29,Travel,Google,Image,9879,177,21,25.55686547187561,Friday,Tablet,2.1283781431048596
+192,55+,Female,New York,Sports,1,Electronics,Google,Text,8951,400,10,10.918969575558455,Tuesday,Mobile,3.282514937737374
+193,45-54,Female,New York,Sports,35,Food,Instagram,Text,259,112,12,29.022106950561145,Sunday,Mobile,6.778778566171591
+194,25-34,Male,New York,Technology,6,Electronics,Twitter,Video,6655,431,3,4.25812872383868,Thursday,Mobile,3.479829104267661
+195,45-54,Male,California,Fashion,37,Food,Twitter,Video,9303,94,21,56.600623786134335,Wednesday,Desktop,5.450690126083671
+196,35-44,Male,Illinois,Travel,5,Travel,Google,Text,8344,326,6,5.414451106503409,Sunday,Tablet,2.0952577605400506
+197,35-44,Male,Texas,Travel,33,Electronics,Twitter,Image,6946,221,42,26.868946199784112,Tuesday,Mobile,6.292842738449023
+198,18-24,Male,Texas,Sports,49,Sports,Twitter,Image,2407,12,23,32.26299440422304,Friday,Tablet,3.8446991545893767
+199,55+,Male,Texas,Sports,14,Food,Google,Image,1328,393,3,59.132926104949846,Monday,Desktop,6.642715910758449
+200,45-54,Male,Texas,Fashion,12,Sports,Twitter,Video,7326,188,27,10.795287594928785,Wednesday,Desktop,8.275553940736206
+201,25-34,Female,California,Food,42,Electronics,Google,Image,5690,351,14,7.751459598129156,Saturday,Mobile,6.504817774509932
+202,35-44,Female,Florida,Technology,20,Sports,Facebook,Video,7019,312,0,1.5136626766900712,Tuesday,Mobile,3.661728063355186
+203,18-24,Male,Illinois,Sports,50,Sports,Instagram,Video,5685,461,2,10.178714775288835,Saturday,Tablet,3.3016933139347033
+204,18-24,Male,New York,Travel,24,Electronics,Instagram,Image,9327,485,13,13.22910576499239,Tuesday,Mobile,3.9467886286010323
+205,45-54,Female,Florida,Fashion,43,Travel,Twitter,Image,6146,341,37,38.20427555340245,Tuesday,Tablet,2.481584619128544
+206,35-44,Male,Texas,Technology,34,Sports,Twitter,Text,5045,47,49,13.962700633092624,Friday,Mobile,2.630546657650181
+207,55+,Male,Florida,Fashion,25,Sports,Twitter,Text,8027,429,0,2.2107280690301874,Friday,Tablet,8.11621991710151
+208,35-44,Female,Illinois,Technology,50,Travel,Instagram,Image,7116,248,37,49.77048238464683,Friday,Tablet,4.462593188567005
+209,45-54,Male,New York,Technology,29,Sports,Facebook,Video,7858,178,37,22.570146359234037,Sunday,Tablet,4.923956625135272
+210,45-54,Female,New York,Sports,39,Sports,Facebook,Video,5186,462,20,21.868104508263304,Thursday,Tablet,6.3464451901013
+211,35-44,Male,Illinois,Fashion,31,Sports,Instagram,Video,9556,406,47,18.846262720907667,Tuesday,Desktop,6.306881456363929
+212,45-54,Female,Illinois,Fashion,47,Fashion,Facebook,Video,7261,352,28,58.54702335163883,Wednesday,Tablet,1.6063918436973315
+213,35-44,Female,Texas,Travel,43,Travel,Instagram,Video,1984,323,4,11.036809621247608,Saturday,Mobile,8.48386707703899
+214,25-34,Female,New York,Travel,50,Sports,Facebook,Text,1909,315,48,53.99604577324087,Friday,Desktop,2.595938979015455
+215,35-44,Male,Florida,Sports,23,Travel,Google,Image,3267,39,9,46.83139659625339,Sunday,Desktop,7.50764472444702
+216,35-44,Female,California,Sports,44,Food,Google,Text,6452,199,27,5.512317374459472,Friday,Tablet,7.954038893153499
+217,45-54,Male,California,Food,38,Food,Instagram,Video,9109,366,20,59.21701698855007,Saturday,Desktop,7.434095806821823
+218,45-54,Male,Illinois,Travel,20,Sports,Facebook,Video,6156,34,49,17.01059184880162,Saturday,Tablet,6.210798818987307
+219,18-24,Male,Texas,Technology,23,Travel,Twitter,Video,2537,121,6,6.816392694322328,Tuesday,Mobile,1.1314809739799458
+220,18-24,Male,California,Fashion,45,Travel,Facebook,Video,6568,420,2,49.92953981341981,Friday,Tablet,4.2433794312685365
+221,25-34,Female,New York,Sports,16,Travel,Google,Image,9180,444,44,42.693856486984295,Saturday,Desktop,6.4435548642632305
+222,18-24,Female,Illinois,Fashion,50,Fashion,Google,Video,6051,215,46,37.415909546796144,Thursday,Mobile,4.487061663302848
+223,35-44,Male,Florida,Fashion,42,Food,Facebook,Image,5376,194,19,10.202870958237057,Thursday,Tablet,8.771319054215319
+224,45-54,Male,Illinois,Food,8,Travel,Facebook,Video,8959,391,18,29.231270859101752,Friday,Mobile,3.779220478146538
+225,18-24,Female,Florida,Travel,50,Travel,Twitter,Image,7918,388,34,47.05280558634561,Sunday,Mobile,3.641813132127944
+226,18-24,Male,Illinois,Sports,21,Fashion,Twitter,Text,4828,56,3,18.913812350486577,Saturday,Desktop,3.3939792378339217
+227,25-34,Female,Illinois,Fashion,1,Fashion,Facebook,Video,2724,383,4,19.389699882387447,Tuesday,Mobile,3.9950278206471594
+228,25-34,Male,Illinois,Sports,8,Travel,Facebook,Image,5838,237,0,1.185313456839205,Tuesday,Desktop,6.016644678827685
+229,35-44,Male,Florida,Technology,29,Electronics,Facebook,Text,4332,48,3,11.280360697077393,Sunday,Mobile,7.363137648453317
+230,45-54,Female,Florida,Food,32,Travel,Facebook,Video,5893,25,11,52.64893188218822,Tuesday,Tablet,6.963111259649066
+231,25-34,Male,Illinois,Technology,38,Travel,Instagram,Video,4623,31,26,27.063043006624717,Monday,Mobile,8.269460379833315
+232,18-24,Female,California,Sports,5,Fashion,Facebook,Video,5671,222,41,59.069835454831605,Friday,Tablet,8.973225959476824
+233,45-54,Male,Texas,Sports,47,Fashion,Twitter,Image,9110,319,22,24.34676985085376,Tuesday,Tablet,8.34471138109016
+234,45-54,Male,Texas,Travel,22,Travel,Google,Image,9398,158,24,43.19600083203423,Thursday,Mobile,1.1705086303691912
+235,18-24,Male,Texas,Fashion,47,Travel,Instagram,Text,2324,465,20,17.63322353137902,Saturday,Tablet,7.623261581967899
+236,25-34,Female,Florida,Fashion,34,Travel,Facebook,Image,8489,250,23,22.464768827315076,Wednesday,Mobile,2.8755961625649844
+237,18-24,Male,Florida,Technology,1,Fashion,Google,Image,6191,281,24,12.252833267862785,Sunday,Mobile,2.1963523843718438
+238,45-54,Male,California,Food,26,Travel,Instagram,Video,8762,68,44,21.476679741464302,Wednesday,Tablet,6.74639906319222
+239,55+,Male,Texas,Fashion,43,Travel,Google,Video,6461,296,45,33.287013704817944,Tuesday,Tablet,3.877688758669254
+240,55+,Male,Texas,Travel,10,Sports,Facebook,Video,2048,435,31,59.51459997777572,Wednesday,Desktop,1.5140544703339893
+241,35-44,Female,Illinois,Technology,30,Electronics,Facebook,Video,7194,211,31,40.18790107123535,Wednesday,Tablet,2.238667609585252
+242,18-24,Female,Florida,Technology,50,Food,Twitter,Video,6418,41,4,12.75551131009053,Monday,Desktop,1.0083647518296495
+243,18-24,Male,Texas,Travel,18,Electronics,Facebook,Video,3896,452,35,3.652725053901517,Thursday,Tablet,9.129012646102366
+244,35-44,Female,California,Food,17,Sports,Facebook,Video,334,171,45,8.455032397556126,Sunday,Mobile,1.2215618545711473
+245,35-44,Male,California,Travel,26,Food,Instagram,Text,9220,264,41,34.19075687510979,Thursday,Tablet,2.8851019255855994
+246,35-44,Male,Texas,Food,8,Travel,Twitter,Text,3707,263,48,46.14445940018921,Monday,Mobile,4.746365026191166
+247,45-54,Male,Florida,Travel,47,Sports,Instagram,Text,8143,18,41,56.48473323074407,Monday,Mobile,4.209141933557372
+248,18-24,Female,California,Travel,40,Travel,Google,Text,622,474,38,1.933567147812428,Wednesday,Mobile,9.20553289221498
+249,45-54,Female,Illinois,Sports,49,Fashion,Facebook,Video,6004,148,15,31.842848352150316,Friday,Desktop,1.362600511610879
+250,35-44,Female,California,Technology,12,Sports,Google,Text,4988,489,32,28.78117401716743,Saturday,Tablet,5.609932369093464
+251,18-24,Female,New York,Travel,27,Fashion,Instagram,Video,9921,19,48,39.70724629656654,Saturday,Mobile,7.124315162719366
+252,45-54,Female,New York,Travel,8,Sports,Facebook,Text,5932,223,20,34.015152413455176,Wednesday,Mobile,9.38528176313052
+253,45-54,Female,Florida,Fashion,25,Sports,Facebook,Image,7222,282,8,41.535309884366356,Saturday,Desktop,6.58334126911349
+254,35-44,Female,Texas,Technology,46,Fashion,Instagram,Text,5942,333,5,39.82687250020223,Monday,Tablet,8.233797124105864
+255,18-24,Female,Florida,Fashion,4,Food,Instagram,Text,1416,57,44,7.9036917666188256,Thursday,Tablet,1.7535244406081356
+256,35-44,Female,Florida,Technology,33,Electronics,Instagram,Video,1224,445,34,48.18335690350445,Saturday,Desktop,4.473455598432347
+257,18-24,Male,Florida,Fashion,1,Travel,Instagram,Text,5721,120,38,8.270721967263166,Sunday,Desktop,4.365524210311607
+258,55+,Female,Florida,Travel,19,Sports,Instagram,Image,5523,162,21,42.21330688733909,Wednesday,Tablet,8.97659394810146
+259,25-34,Female,Illinois,Travel,31,Travel,Facebook,Video,2687,132,40,25.552576690795796,Friday,Desktop,2.3623405413694742
+260,25-34,Female,Illinois,Sports,16,Fashion,Instagram,Video,9315,414,4,31.317193340019276,Wednesday,Tablet,2.3669755510296726
+261,25-34,Female,California,Fashion,14,Travel,Facebook,Text,5772,366,41,54.294582848166925,Tuesday,Tablet,3.957023348972186
+262,35-44,Female,New York,Food,48,Fashion,Facebook,Video,1478,111,22,53.50313986193571,Wednesday,Mobile,1.4901944263015383
+263,55+,Female,Florida,Sports,5,Travel,Instagram,Video,3474,250,16,49.253522033646746,Monday,Mobile,2.6421223658724102
+264,18-24,Female,California,Fashion,41,Electronics,Instagram,Video,1619,330,11,31.098754446923074,Thursday,Tablet,9.686886746911616
+265,45-54,Female,New York,Fashion,26,Electronics,Twitter,Video,5877,200,22,44.438148797896154,Thursday,Tablet,4.853655458804555
+266,18-24,Female,Texas,Sports,28,Electronics,Facebook,Video,8035,226,15,31.26092627560975,Sunday,Tablet,6.688172875801928
+267,45-54,Female,Illinois,Travel,2,Electronics,Instagram,Video,6193,60,2,52.30675886601187,Saturday,Tablet,7.535001334101732
+268,18-24,Female,New York,Fashion,50,Electronics,Instagram,Image,8518,301,29,24.763774160741093,Monday,Tablet,4.302652663064804
+269,55+,Male,Texas,Travel,6,Electronics,Instagram,Text,5455,90,21,58.24388532047773,Tuesday,Tablet,2.3250436696946526
+270,45-54,Male,New York,Sports,9,Fashion,Twitter,Image,5068,498,8,56.007042735503774,Monday,Desktop,2.8592291459960273
+271,35-44,Female,Illinois,Travel,33,Sports,Twitter,Video,9183,392,28,44.754554547655346,Wednesday,Tablet,3.819398289225493
+272,18-24,Female,Illinois,Technology,41,Travel,Google,Video,5674,97,46,17.485537166388248,Monday,Desktop,6.724615783170031
+273,18-24,Male,California,Food,25,Electronics,Facebook,Text,4172,203,36,8.767561738802245,Monday,Desktop,4.58452494180149
+274,45-54,Female,Florida,Fashion,48,Fashion,Google,Image,2357,113,22,51.42750355549865,Sunday,Tablet,1.0613322811011532
+275,35-44,Male,New York,Food,13,Fashion,Instagram,Text,8688,280,12,10.752834882139716,Tuesday,Tablet,5.710664665607247
+276,35-44,Male,New York,Travel,9,Fashion,Twitter,Image,4524,105,31,51.40138655084281,Wednesday,Desktop,9.29362052716676
+277,55+,Male,Texas,Fashion,13,Sports,Twitter,Video,3337,432,45,29.955135396029267,Friday,Desktop,8.308698499078112
+278,35-44,Male,Illinois,Travel,31,Travel,Google,Text,3993,388,46,24.98685024467815,Sunday,Tablet,8.42690234133668
+279,35-44,Male,New York,Technology,41,Sports,Twitter,Text,2105,207,47,54.28825595123132,Friday,Tablet,8.155522158455181
+280,35-44,Female,Illinois,Sports,11,Food,Instagram,Video,2116,10,22,36.627207969876395,Sunday,Desktop,3.913577430493813
+281,25-34,Male,New York,Fashion,4,Fashion,Twitter,Text,9488,416,44,35.02022642065335,Thursday,Desktop,7.886744503789528
+282,55+,Female,California,Technology,34,Food,Google,Image,1872,387,16,33.96719073283946,Sunday,Desktop,2.288452220300737
+283,18-24,Female,Florida,Technology,38,Electronics,Instagram,Image,8453,176,39,22.899001445152354,Saturday,Mobile,6.919445325483582
+284,45-54,Male,New York,Fashion,46,Electronics,Google,Image,4076,135,20,47.35294310821851,Monday,Desktop,6.77411710016495
+285,18-24,Male,Illinois,Travel,4,Sports,Twitter,Image,1851,322,1,15.915108196930607,Thursday,Mobile,1.2301281918076121
+286,55+,Female,California,Technology,38,Travel,Google,Video,9067,90,36,56.39480264243523,Tuesday,Tablet,8.091731202318385
+287,45-54,Male,New York,Food,19,Food,Google,Text,7530,427,5,53.745127097770684,Friday,Tablet,9.129232945856176
+288,55+,Male,Texas,Technology,6,Travel,Facebook,Image,7270,260,43,20.91133921481899,Sunday,Desktop,3.406737506248969
+289,35-44,Female,Florida,Travel,34,Sports,Twitter,Video,6569,178,17,44.03836242006816,Monday,Tablet,8.311516517675358
+290,45-54,Female,New York,Travel,18,Electronics,Twitter,Text,9231,486,29,34.8201684725259,Tuesday,Tablet,1.741653746757534
+291,35-44,Male,California,Food,13,Travel,Google,Text,3320,82,21,20.92130881795484,Saturday,Tablet,6.399710724349594
+292,18-24,Female,Texas,Technology,41,Travel,Facebook,Video,639,150,32,59.32277723173136,Tuesday,Tablet,5.370821788008494
+293,18-24,Male,California,Travel,23,Electronics,Twitter,Video,1561,79,29,2.4890034050475878,Monday,Mobile,5.913311799781
+294,45-54,Male,California,Fashion,19,Food,Instagram,Image,5284,271,16,15.906115806655913,Saturday,Mobile,9.335846816959105
+295,45-54,Male,Texas,Sports,45,Electronics,Google,Text,8647,349,42,31.684369605557873,Tuesday,Desktop,8.841837225221681
+296,55+,Female,California,Sports,11,Travel,Twitter,Text,334,317,31,31.795227205235268,Saturday,Desktop,8.065752915157812
+297,55+,Female,Texas,Sports,1,Food,Instagram,Video,1648,254,41,35.747051421788285,Sunday,Desktop,3.463286119105339
+298,35-44,Female,New York,Technology,24,Food,Twitter,Text,7580,12,13,45.34889414935223,Sunday,Tablet,9.206367658174825
+299,45-54,Female,Texas,Food,7,Electronics,Instagram,Image,4313,346,9,37.78519200063849,Monday,Tablet,1.8775692321748774
+300,18-24,Female,Texas,Travel,25,Travel,Google,Text,1773,72,46,36.416606171154186,Monday,Mobile,8.67996294902909
+301,55+,Male,Florida,Fashion,21,Sports,Twitter,Video,6808,58,35,4.157353311869555,Saturday,Mobile,3.9534406511824702
+302,55+,Male,Texas,Fashion,15,Travel,Twitter,Video,8082,85,33,23.2152869795686,Wednesday,Desktop,1.4839508049578503
+303,18-24,Male,Texas,Technology,1,Fashion,Facebook,Image,2200,377,8,14.691288642368205,Thursday,Mobile,7.0242128581667345
+304,55+,Male,New York,Sports,12,Sports,Google,Image,3848,184,41,16.65683658451655,Tuesday,Mobile,3.081519354843599
+305,35-44,Female,Florida,Technology,7,Food,Instagram,Text,3273,118,27,33.70591098608035,Tuesday,Mobile,3.192140132781687
+306,45-54,Male,Illinois,Food,15,Sports,Twitter,Text,1915,192,10,12.770813580846898,Wednesday,Mobile,3.7544244960589435
+307,18-24,Female,New York,Food,21,Food,Twitter,Video,3941,201,13,18.342996959996952,Wednesday,Mobile,1.5731629075226505
+308,45-54,Male,New York,Travel,19,Food,Instagram,Image,8116,74,38,14.987997802523065,Wednesday,Desktop,2.594144297784286
+309,55+,Female,Illinois,Travel,29,Sports,Google,Image,7111,346,46,56.96167364987349,Friday,Desktop,1.0462566482700426
+310,55+,Female,Texas,Food,25,Food,Facebook,Image,4593,460,18,56.73527819809461,Friday,Mobile,5.008685689952081
+311,18-24,Male,California,Food,33,Food,Facebook,Text,774,483,14,36.98655195716705,Saturday,Desktop,1.7582983967617416
+312,35-44,Male,Florida,Food,49,Fashion,Twitter,Image,8188,280,27,55.5468256551821,Friday,Tablet,7.143873445397791
+313,25-34,Male,California,Technology,32,Travel,Instagram,Video,8678,109,23,47.36294608263402,Sunday,Mobile,3.1206056607248356
+314,18-24,Male,Illinois,Food,49,Travel,Twitter,Video,2258,41,7,35.806925085306716,Sunday,Tablet,9.492167296316595
+315,25-34,Female,New York,Fashion,35,Fashion,Instagram,Text,2761,361,42,1.379677478310947,Monday,Desktop,8.841264646587874
+316,25-34,Male,New York,Sports,44,Sports,Facebook,Text,2164,137,8,46.57846087868484,Saturday,Desktop,3.6049680547138743
+317,35-44,Male,Florida,Food,38,Electronics,Google,Image,3353,461,46,42.44681215371966,Tuesday,Tablet,8.048939091910109
+318,25-34,Female,New York,Sports,26,Electronics,Instagram,Text,5079,411,32,37.299965543662424,Thursday,Desktop,8.229204141983256
+319,25-34,Male,New York,Technology,11,Electronics,Facebook,Video,7803,378,32,45.86503438926583,Monday,Mobile,9.879068027029694
+320,35-44,Male,Florida,Sports,35,Fashion,Twitter,Image,9031,348,18,31.262407721711178,Tuesday,Tablet,6.380559881611164
+321,25-34,Male,Florida,Technology,8,Fashion,Instagram,Video,1501,52,2,42.540913007959006,Tuesday,Mobile,1.7376916117929597
+322,25-34,Male,Illinois,Fashion,46,Food,Google,Image,3359,381,9,56.17515311686311,Saturday,Tablet,6.821535060337428
+323,25-34,Male,New York,Technology,14,Electronics,Twitter,Text,4023,428,39,23.17249593491909,Wednesday,Desktop,6.624817735384317
+324,18-24,Female,New York,Technology,10,Sports,Twitter,Image,4314,497,46,42.7791882591369,Wednesday,Tablet,6.745155196783886
+325,18-24,Male,Illinois,Travel,2,Sports,Facebook,Image,3327,87,41,29.065581262646564,Monday,Tablet,3.7643108329379036
+326,18-24,Male,Texas,Food,46,Electronics,Instagram,Video,2845,323,0,40.789579457024914,Wednesday,Mobile,8.737116265722996
+327,35-44,Male,Texas,Food,9,Electronics,Twitter,Video,6191,298,28,46.010706797707485,Tuesday,Desktop,9.635249646598707
+328,55+,Male,Texas,Fashion,3,Electronics,Google,Image,3966,279,49,3.6816975257119617,Wednesday,Mobile,2.959412616803364
+329,25-34,Male,Illinois,Fashion,21,Fashion,Instagram,Text,5918,171,33,39.14942619297105,Friday,Desktop,1.7933694232298
+330,25-34,Female,New York,Food,26,Fashion,Google,Text,2322,198,12,14.37772988000973,Wednesday,Mobile,2.7508152985163568
+331,35-44,Male,Illinois,Travel,8,Fashion,Twitter,Video,2892,256,0,40.53191973064644,Tuesday,Tablet,8.38496925330147
+332,25-34,Female,Illinois,Food,48,Travel,Google,Text,9989,397,33,28.631480970094994,Saturday,Mobile,7.089801713378628
+333,18-24,Female,Texas,Travel,2,Sports,Facebook,Video,4163,225,28,46.639611770028345,Monday,Desktop,6.7244260810521395
+334,55+,Male,California,Fashion,6,Sports,Google,Text,1624,324,47,8.28064809713019,Thursday,Desktop,4.6161382159848205
+335,45-54,Male,New York,Sports,28,Food,Instagram,Image,8324,422,46,37.95301874771551,Wednesday,Tablet,6.200451743602922
+336,25-34,Male,Texas,Fashion,29,Fashion,Google,Video,6298,348,12,17.429773006725586,Sunday,Desktop,3.7708671274693066
+337,18-24,Male,California,Fashion,26,Travel,Google,Video,4125,399,47,51.3259377245049,Sunday,Mobile,5.294800714761651
+338,45-54,Female,California,Technology,25,Travel,Facebook,Image,2666,386,48,55.77462683254214,Tuesday,Tablet,8.137567255335902
+339,55+,Male,Florida,Technology,12,Sports,Google,Video,2903,490,28,59.78749932706427,Thursday,Desktop,9.83117437709916
+340,45-54,Male,New York,Technology,5,Fashion,Google,Text,3809,442,38,47.96443674320972,Thursday,Desktop,9.392400312308217
+341,18-24,Male,California,Technology,34,Food,Twitter,Text,6255,177,23,45.47031015525227,Friday,Mobile,9.404793485616239
+342,45-54,Male,Texas,Travel,48,Fashion,Twitter,Video,819,348,25,13.714544773185512,Thursday,Mobile,4.620013613624011
+343,35-44,Male,Florida,Food,37,Electronics,Instagram,Text,6616,202,16,20.824416480416417,Sunday,Tablet,5.219108924561119
+344,45-54,Male,New York,Sports,15,Fashion,Twitter,Video,4679,462,6,28.47526996397449,Saturday,Desktop,7.3507185673208335
+345,25-34,Female,Illinois,Fashion,44,Electronics,Twitter,Image,1072,292,12,46.62948181915273,Tuesday,Mobile,9.299727352461558
+346,25-34,Female,Texas,Travel,36,Electronics,Twitter,Video,3818,345,4,54.98298603960015,Tuesday,Tablet,2.277948334168762
+347,35-44,Male,California,Sports,15,Food,Twitter,Image,7495,399,25,12.159206901356093,Wednesday,Desktop,3.738176774444762
+348,18-24,Male,California,Travel,43,Sports,Facebook,Text,4502,497,48,55.41968159553607,Wednesday,Desktop,2.2532216013469855
+349,25-34,Male,Texas,Travel,48,Fashion,Twitter,Image,4652,22,2,42.04185448888942,Wednesday,Tablet,6.508076769635098
+350,55+,Female,California,Fashion,23,Electronics,Facebook,Text,2307,249,6,37.03547311041728,Sunday,Tablet,3.756708971987838
+351,25-34,Male,Florida,Food,6,Fashion,Facebook,Video,4526,329,48,12.790635005634432,Sunday,Mobile,3.934970672613161
+352,25-34,Female,New York,Technology,46,Sports,Twitter,Text,7019,455,38,4.275976935739883,Sunday,Desktop,1.638243635391813
+353,18-24,Male,Florida,Food,50,Sports,Google,Video,8935,492,0,34.53942901196845,Sunday,Desktop,4.148164556268327
+354,45-54,Male,California,Fashion,44,Travel,Facebook,Video,8486,156,48,39.43942531640465,Sunday,Desktop,8.762468566614269
+355,25-34,Male,Illinois,Fashion,43,Sports,Google,Image,8780,213,16,13.436105511926606,Sunday,Tablet,3.0976553070175146
+356,35-44,Male,New York,Fashion,45,Food,Google,Image,2304,89,42,33.83091614370193,Saturday,Mobile,7.256687195890591
+357,45-54,Female,New York,Sports,21,Electronics,Twitter,Image,5445,388,24,51.53311076299184,Sunday,Desktop,6.666655104447334
+358,55+,Female,Texas,Food,23,Travel,Instagram,Image,3376,52,2,50.26889078184618,Thursday,Tablet,8.771361475322038
+359,18-24,Male,Texas,Food,43,Food,Twitter,Text,1202,467,14,55.71395565459154,Thursday,Desktop,2.1905915288593443
+360,55+,Male,Illinois,Travel,16,Fashion,Instagram,Text,5343,98,28,22.587262763855946,Friday,Mobile,9.798309643105389
+361,45-54,Female,New York,Travel,47,Electronics,Instagram,Text,6714,157,42,19.764924780504202,Saturday,Desktop,6.24365781436329
+362,45-54,Female,Illinois,Travel,15,Sports,Twitter,Video,9533,104,31,45.21613435286771,Wednesday,Mobile,9.95926737112133
+363,45-54,Female,Texas,Fashion,25,Electronics,Twitter,Text,8807,461,25,26.435631900723294,Monday,Mobile,9.203632532792657
+364,55+,Female,Texas,Food,36,Fashion,Instagram,Text,5323,437,15,6.165371177639056,Sunday,Desktop,2.993655449017952
+365,45-54,Male,New York,Fashion,11,Travel,Twitter,Text,8684,160,24,17.685266709559485,Friday,Desktop,1.505458089129818
+366,55+,Female,Florida,Sports,15,Travel,Instagram,Image,730,11,27,25.69635484635786,Monday,Mobile,3.300751844158254
+367,45-54,Male,California,Travel,4,Travel,Google,Text,9271,385,8,18.258469103098868,Thursday,Tablet,5.748072840994779
+368,35-44,Female,Texas,Fashion,21,Sports,Twitter,Video,6783,31,0,20.600128685891974,Friday,Mobile,2.54436730358671
+369,45-54,Female,Texas,Fashion,13,Food,Google,Image,377,380,28,18.332778464289056,Friday,Desktop,2.5071377006618967
+370,55+,Female,Florida,Sports,22,Food,Facebook,Video,332,322,21,3.4484508638016873,Tuesday,Desktop,5.163341923946378
+371,25-34,Female,Florida,Technology,19,Electronics,Google,Text,9844,494,15,38.58858734864211,Thursday,Tablet,1.2994117405242258
+372,45-54,Female,Illinois,Food,34,Sports,Google,Image,5790,337,40,36.24025280085469,Thursday,Mobile,2.0969927427904342
+373,25-34,Male,Illinois,Technology,14,Travel,Instagram,Video,7759,16,43,39.549626410242155,Saturday,Mobile,4.742752054671528
+374,35-44,Male,California,Travel,4,Travel,Google,Text,125,215,40,12.34628386598402,Friday,Mobile,1.5681691828716982
+375,18-24,Female,California,Fashion,48,Fashion,Twitter,Video,7568,449,6,18.44361795513663,Sunday,Desktop,4.5707955080997635
+376,35-44,Female,New York,Sports,46,Fashion,Instagram,Video,6510,384,13,37.557339689750414,Thursday,Mobile,5.266056393536005
+377,45-54,Male,Illinois,Sports,27,Travel,Facebook,Video,8752,460,28,36.37802653913536,Friday,Tablet,5.06139952665803
+378,25-34,Female,Texas,Food,29,Travel,Twitter,Text,3864,123,18,30.8734882519018,Saturday,Desktop,8.822573716627787
+379,25-34,Female,Illinois,Technology,47,Sports,Facebook,Text,6699,281,18,21.674381750601647,Sunday,Desktop,5.770562095465592
+380,55+,Male,Texas,Food,28,Food,Google,Video,5202,92,1,54.862929281706705,Saturday,Mobile,5.21182416230239
+381,25-34,Female,Florida,Fashion,35,Fashion,Twitter,Image,7106,188,40,21.046444295631783,Tuesday,Tablet,4.6963832085249955
+382,55+,Female,Illinois,Food,8,Food,Twitter,Image,3583,219,44,27.881530229797843,Sunday,Desktop,8.358610404740375
+383,18-24,Male,Florida,Sports,16,Sports,Facebook,Text,2094,473,14,41.008716026298316,Friday,Desktop,9.055509435998498
+384,45-54,Male,California,Sports,42,Travel,Twitter,Text,8782,337,2,33.03826442113908,Thursday,Mobile,8.679182222774058
+385,55+,Male,California,Travel,36,Food,Twitter,Text,1172,133,10,21.466272605498748,Thursday,Mobile,7.0619192031825175
+386,18-24,Female,New York,Travel,30,Travel,Twitter,Text,6807,490,45,26.70304263693408,Friday,Tablet,2.236255713718068
+387,25-34,Male,Illinois,Fashion,18,Travel,Google,Text,315,122,29,47.87436825335686,Friday,Mobile,3.4918297254281105
+388,25-34,Male,Florida,Technology,2,Electronics,Facebook,Image,7705,21,39,17.409620173710135,Friday,Tablet,1.414567573137797
+389,18-24,Male,Texas,Food,49,Food,Twitter,Text,9884,135,17,9.39305914683211,Wednesday,Desktop,9.377416674911027
+390,25-34,Male,California,Fashion,13,Food,Instagram,Video,2706,62,47,19.476628907956847,Sunday,Tablet,6.947186767218193
+391,18-24,Male,California,Travel,4,Travel,Instagram,Video,8450,340,1,51.12251871378618,Thursday,Tablet,7.717265958819174
+392,55+,Male,Texas,Food,26,Sports,Instagram,Image,4881,398,31,6.250393176524453,Sunday,Tablet,3.8041456562400606
+393,55+,Female,Florida,Travel,25,Electronics,Instagram,Video,3413,292,7,59.510068328974654,Saturday,Desktop,8.610881700496082
+394,18-24,Female,Florida,Food,30,Travel,Google,Image,7863,149,21,32.91917103673209,Thursday,Mobile,3.3364295533763064
+395,55+,Male,Illinois,Technology,11,Fashion,Twitter,Image,6039,410,5,59.10589889405855,Wednesday,Desktop,1.0147938140120472
+396,55+,Male,Illinois,Fashion,7,Fashion,Facebook,Video,2395,399,11,56.40078890307267,Friday,Mobile,4.3877346626862455
+397,55+,Male,New York,Food,31,Electronics,Twitter,Text,5785,106,46,27.71600913844409,Tuesday,Tablet,6.136853328631661
+398,35-44,Female,California,Sports,44,Sports,Google,Video,1796,14,39,12.710973401715597,Friday,Tablet,5.3083437216897025
+399,45-54,Female,Illinois,Sports,10,Travel,Instagram,Video,2046,66,35,10.728201817343168,Friday,Tablet,8.758685283189372
+400,25-34,Female,Florida,Food,39,Food,Google,Image,2883,421,14,15.159372468327494,Wednesday,Tablet,1.9486475736055024
+401,35-44,Female,Texas,Food,13,Electronics,Twitter,Video,3744,343,27,42.8978257933077,Sunday,Tablet,5.98441096570353
+402,55+,Female,Florida,Food,31,Sports,Facebook,Image,5341,78,48,17.104049689157783,Thursday,Mobile,5.616814148388167
+403,18-24,Female,California,Sports,7,Food,Google,Text,6520,127,44,21.1440909066536,Friday,Mobile,3.532536839549467
+404,55+,Female,Florida,Sports,49,Fashion,Facebook,Text,7657,385,17,27.477949435682273,Thursday,Tablet,8.400053013193094
+405,45-54,Female,New York,Food,42,Fashion,Google,Text,2745,68,1,54.88072814486593,Monday,Desktop,7.775637902939857
+406,55+,Female,California,Travel,42,Food,Facebook,Video,6689,42,12,12.17421165520592,Saturday,Desktop,7.595732685986479
+407,18-24,Male,Texas,Travel,36,Electronics,Facebook,Image,6453,327,44,1.2965666039783836,Sunday,Tablet,8.885732304426003
+408,45-54,Male,New York,Technology,20,Fashion,Instagram,Text,2032,59,14,4.545688212312038,Thursday,Mobile,7.505061405593691
+409,55+,Male,California,Fashion,4,Travel,Facebook,Image,1857,377,19,54.381214159126955,Tuesday,Desktop,3.086571625432538
+410,45-54,Male,Texas,Travel,7,Food,Instagram,Image,5185,498,28,39.20347142575842,Saturday,Desktop,7.3500644048472195
+411,25-34,Female,New York,Sports,1,Food,Twitter,Text,5737,28,41,17.109396540340597,Tuesday,Desktop,3.7693253205085946
+412,25-34,Female,New York,Travel,44,Fashion,Twitter,Text,1216,223,28,11.454357559660275,Friday,Tablet,3.179571853127235
+413,55+,Male,California,Technology,45,Electronics,Instagram,Image,592,206,2,18.361737461589748,Saturday,Desktop,1.657032336096646
+414,45-54,Female,Illinois,Technology,42,Travel,Instagram,Text,8911,388,18,7.773018707825526,Thursday,Desktop,7.69625722312909
+415,18-24,Male,New York,Fashion,47,Electronics,Google,Image,7988,459,2,56.550441706782024,Saturday,Desktop,7.3990086575483005
+416,55+,Female,New York,Travel,13,Sports,Google,Image,6574,487,13,47.268164287550746,Friday,Desktop,3.1104952990668435
+417,25-34,Male,Texas,Sports,22,Sports,Google,Text,9838,56,39,28.281079437839903,Wednesday,Mobile,7.744411150517403
+418,25-34,Female,Florida,Sports,21,Fashion,Twitter,Video,5058,176,3,52.03279370179691,Sunday,Tablet,9.260567947841977
+419,55+,Female,California,Food,22,Fashion,Google,Text,9897,461,10,15.718034053300705,Tuesday,Tablet,1.9722606174242134
+420,45-54,Male,California,Sports,28,Fashion,Facebook,Video,9567,298,30,43.310113539859415,Friday,Mobile,3.0937297454809745
+421,25-34,Female,Illinois,Fashion,9,Sports,Facebook,Image,2843,150,42,51.51181744181086,Wednesday,Mobile,7.75234714678584
+422,45-54,Male,Illinois,Fashion,26,Electronics,Google,Image,7966,93,31,22.049353985773084,Saturday,Tablet,3.4705600615637042
+423,25-34,Male,California,Sports,9,Electronics,Facebook,Video,7260,191,26,45.69040228159234,Saturday,Desktop,6.621975768553451
+424,25-34,Male,Illinois,Sports,15,Fashion,Twitter,Image,5551,400,29,18.409268606594253,Friday,Desktop,1.7304780201734307
+425,35-44,Male,Texas,Food,10,Travel,Facebook,Video,5358,88,42,18.632570980282818,Thursday,Tablet,5.069822311931849
+426,25-34,Female,California,Sports,24,Electronics,Twitter,Video,8648,224,1,7.316373534696978,Saturday,Desktop,7.651822797936577
+427,18-24,Female,Illinois,Food,42,Sports,Instagram,Image,7286,23,48,26.963424744054524,Thursday,Mobile,7.178625487389272
+428,55+,Female,California,Food,8,Food,Instagram,Video,6202,224,8,44.05300248334791,Thursday,Desktop,8.335648906082262
+429,55+,Male,Florida,Sports,24,Food,Instagram,Text,9161,412,27,56.47302752870581,Sunday,Desktop,8.89706913942852
+430,45-54,Female,New York,Technology,16,Food,Instagram,Text,9177,137,30,36.62402252381667,Thursday,Desktop,7.958651511328824
+431,25-34,Male,California,Technology,49,Travel,Facebook,Image,9575,319,33,51.9249967264086,Monday,Tablet,7.044289686450334
+432,18-24,Female,New York,Food,26,Fashion,Google,Image,719,486,14,49.527184308123395,Sunday,Mobile,1.2855024263442805
+433,45-54,Female,Illinois,Sports,27,Sports,Facebook,Video,982,257,47,11.22724012554157,Wednesday,Desktop,5.814700060684997
+434,35-44,Female,New York,Technology,37,Travel,Twitter,Video,9088,413,24,29.663228305845255,Wednesday,Tablet,1.339279524233675
+435,45-54,Male,California,Sports,4,Sports,Facebook,Video,3742,38,35,7.8984885959980975,Saturday,Desktop,8.272610354044204
+436,45-54,Female,Florida,Sports,50,Sports,Facebook,Video,1396,289,7,41.24703653213646,Saturday,Mobile,3.886520720139618
+437,25-34,Female,Illinois,Sports,24,Fashion,Twitter,Text,8536,347,8,57.044080426518484,Thursday,Desktop,6.061864367061288
+438,35-44,Male,California,Travel,19,Food,Instagram,Text,2995,328,36,9.088278026646634,Sunday,Mobile,3.5150077658701235
+439,45-54,Female,Illinois,Sports,36,Fashion,Instagram,Image,6693,211,47,44.299104717349934,Sunday,Desktop,8.042501299422643
+440,18-24,Male,Texas,Travel,39,Travel,Instagram,Video,1029,370,44,38.3020509012038,Monday,Mobile,8.978522739777123
+441,18-24,Female,New York,Food,10,Travel,Google,Video,5466,66,38,35.432697183477885,Thursday,Desktop,4.587782447917576
+442,55+,Male,Texas,Technology,25,Travel,Twitter,Image,8811,401,31,24.017093846612013,Monday,Mobile,8.766301541598901
+443,35-44,Male,California,Technology,18,Fashion,Twitter,Video,3312,227,16,21.952767217474943,Thursday,Desktop,3.4036750671069917
